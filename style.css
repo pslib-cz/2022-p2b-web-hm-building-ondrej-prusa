@@ -59,6 +59,7 @@ p {
     }
     .heading {
         font-size: 50px;
+        margin-left: 1em;
     }
 }
 
@@ -189,8 +190,14 @@ p {
 
 .seznam{
     display: inline-block;
+    margin-left: 1em;
+    padding: 1em;
     list-style: inside;
     padding-left: 10px;
     color: rgb(255, 102, 0) ;
     
+}
+
+.onas{
+    margin-left: 1em;
 }
