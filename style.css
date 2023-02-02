@@ -1,11 +1,62 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 html {
     font-family: 'Open Sans', sans-serif;
 }
+.white {
+    color: white;
+}
 
+.black {
+    color: black;
+}
+
+.orange {
+    color: #eb6c27;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.big {
+    font-size: 14px;
+}
+
+.bigger {
+    font-size: 18px;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.center {
+    text-align: center;
+}
+
+.none {
+    display: none !important;
+}
+
+.btn_gap_b {
+    margin-bottom: 50px;
+}
+
+.btn_gap_t {
+    margin-top: 50px;
+}
 @media (max-width: 350px) {
     .header-main {
         font-size: 1.4em;
@@ -18,20 +69,24 @@ html {
     }
 }
 
-
-
 .body_services {
     padding: 2em 1em;
 }
 
 .heading {
     padding-top: 1em;
-    font-weight: 700;
-    font-size: 1.4em;
+    font-weight: 1000;
+    font-size: 2em;
+    text-align: center;
 }
 p {
     padding-top: 1em;
-    font-size: .9em;
+    font-size: 1.2em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 @media (min-width: 1150px) {
@@ -59,7 +114,7 @@ p {
     }
     .heading {
         font-size: 50px;
-        margin-left: 1em;
+
     }
 }
 
@@ -70,7 +125,7 @@ p {
     height: 35vh;
     background-size:  cover;
     background-position: center;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: end;
     align-items: center;
@@ -115,7 +170,7 @@ p {
     font-weight: 400;
     padding: .4em 1.3em;
     text-decoration: none;
-    border: 1px solid #EB6C27;
+    border: 2px dashed #EB6C27;
 }
 
 .button {
@@ -189,6 +244,7 @@ p {
 }
 
 .seznam{
+    font-size: 1.2em;
     display: inline-block;
     margin-left: 1em;
     padding: 1em;
@@ -200,4 +256,67 @@ p {
 
 .onas{
     margin-left: 1em;
+}
+
+.container{
+    margin: 3em;
+}
+.name{
+    position: relative;
+    text-align:center;
+    bottom: -65%;
+}
+.footer {
+    background-color: #eb6c27;
+    padding-bottom: 50px;
+    margin-top: 80px;
+}
+.footer_btn {
+    padding: 2em 4em 2em 4em;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    width: 18em;
+    background-color: white;
+    margin: auto;
+}
+.presvedcit {
+    height: 45vh;
+    width: 100%;
+    background-image: radial-gradient(transparent, rgb(0, 0, 0, 0.9)), url(./media/background-CTAblock-4460w.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    padding: 0%;
+    background-position: center center;
+    background-size: cover; 
+}
+.presvedcit_btn {
+    padding: 1em 2.5em 1em 2.5em;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    width: 12em;
+    background-color: #eb6c27;
+    margin-top: 30px;
+}
+
+.presvedcit_text_h {
+    font-size: 17px;
+}
+
+.presvedcit_text {
+    padding-left: 3em;
+    padding-right: 5em;
+    padding-top: 1.5em;
+}
+
+.galerie_reference_img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    max-width: 500px;
+    max-height: 307px;
+}
+.wrapper{
+    padding-top: 50px;
 }

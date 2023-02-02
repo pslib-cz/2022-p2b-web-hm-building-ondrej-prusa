@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HM Building</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
 </head>
 <body class="body">
         <div class="body__nav">
@@ -15,7 +18,7 @@
             <nav class="nav">
                 <ul class="menu">
                     <li><a href="index.html"><strong>DOMŮ</strong></a></li>
-                    <li><a href="sluzby.html">SLUŽBY</a></li>
+                    <li><a href="index.html#sluzby">SLUŽBY</a></li>
                     <li><a href="reference.html">REFERENCE</a></li>
                     <li><a href="onas.html">O NÁS</a></li>
                     <li><a href="kontakt.html">KONTAKT</a></li>
@@ -23,12 +26,15 @@
             </nav>
         </div>
     <header class="body__header">
-        <h1 class="header-main">HM Building.cz s.r.o.</h1>
-        <h1 class="header-main header-light">liberecká stavební společnost</h1>
+        <div class="name">
+            <h1 class="header-main">HM Building.cz s.r.o.</h1>
+            <h1 class="header-main header-light">liberecká stavební společnost</h1>
+        </div>
     </header>
+
     <main class="body_services">
         <header class="services-header">
-            <h2 class="heading">Využijte škálu našich služeb</h2>
+            <h2 class="heading" id="sluzby">Využijte škálu našich služeb</h2>
             <p>Ačkoliv provádíme především půmyslové stavby, není pro nás problém postavit
                 Vám rodinný domek na klíč, nebo jen hrubou stavbu. Nejsou nám cizí 
                 ani rekonstrukce budov a jejich údržba a to včetně okolních ploch.</p>
@@ -79,7 +85,45 @@
                 jako jsou odvodnění, zpevnění svahů, opěrné zdi atd.</p>
                 <p class="button"><a class="btn" href="#">Zobrazit více</a></p>
             </figcaption> 
-
         </div>
+
+
+
+
+        
+        <div class="presvedcit">
+            <div class="presvedcit_text">
+                <p class="presvedcit_text_h bold white">Naše firma nabízí své služby ve stavebnictví od roku 2015.<br><br>Za kvalitu naší práce ručíme. </h1>
+                <a href="#" class="presvedcit_btn white bolder">Přesvědčit se</a>
+            </div>
+        </div>
+        <div class="reference container">
+            <a href="#" class="black">
+                    <img src="media/reference/reference-hasicska-zbrojnice-600w.jpg" class="galerie_reference_img" alt="hasičská zbrojince">
+                    <p class="center title bold">Hasičská zbrojnice</p>
+                    <p class="center">celková rekonstrukce</p>
+            </a>
+            <a href="#" class="black">
+                    <img src="media/reference/reference-pradelna-600w.jpg" class="galerie_reference_img" alt="Samoobslužná prádelna">
+                    <p class="center title bold">Samoobslužná prádelna</p>
+                    <p class="center">stavební úpravy a opravy</p>
+            </a>
+            <a href="#" class="black">
+                    <img src="media/reference/reference-plocha-600w.jpg" class="galerie_reference_img" alt="Restylovaná plocha">
+                    <p class="center title bold">Venkovní plochy Restyl</p>
+                    <p class="center">provedení venkovnách ploch</p>
+            </a>
+        </div>
+                <a href="#" class="reference_btn white bolder">Více referencí</a>
+        </div>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class=" center container">
+                    <p class="white">Plácneme si pro Váš projekt?</p>
+                    <p class="bigger white">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+                </div>
+                    <a href="kontakt.html" class="footer_btn orange bolder">Nezávazně poptat</a>  
+            </div>
+        </footer>
     </main>
 </body>
