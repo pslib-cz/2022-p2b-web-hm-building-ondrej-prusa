@@ -77,15 +77,15 @@ html {
 .heading {
     padding-top: 1em;
     font-weight: 1000;
-    font-size: 2em;
-    text-align: center;
+    font-size: 1.3em;
+    text-align: left;
 }
 p {
-    padding-top: 1em;
-    font-size: 1.2em;
+    padding-top: 0.3em;
+    font-size: 0.9em;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.9em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -246,7 +246,7 @@ p {
 }
 
 .seznam{
-    font-size: 1.2em;
+    font-size: 0.9em;
     display: inline-block;
     margin-left: 1em;
     padding: 1em;
@@ -283,9 +283,9 @@ p {
     margin: auto;
 }
 .presvedcit {
-    height: 45vh;
+    height: 25vh;
     width: 100%;
-    background-image: radial-gradient(transparent, rgb(0, 0, 0, 0.9)), url(./media/background-CTAblock-4460w.jpg);
+    background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.979)), url(./media/background-CTAblock-4460w.jpg);
     background-repeat: no-repeat;
     display: block;
     padding: 0%;
@@ -307,9 +307,9 @@ p {
 }
 
 .presvedcit_text {
-    padding-left: 3em;
-    padding-right: 5em;
-    padding-top: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
 }
 
 .galerie_reference_img {
@@ -322,6 +322,12 @@ p {
 .wrapper{
     padding-top: 50px;
 }
-.sluzby{
+.orange{
     color: #eb6c27 ;
 }
+
+
+
+
+
+
